@@ -1,5 +1,3 @@
-Documentation Git.
-
 J'vous mets les commandes necessaires pour git ;)
 
 # Créer un nouveau référentiel
