@@ -1,0 +1,63 @@
+
+#partie 1: codage des outils necessaire pour le programme
+
+# pour ce qui est de l'importation des librairies (bibliotheques). 
+
+from math import*
+from random import*
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.stats import linregress
+
+# Question (a) Une fonction nommée cree_fichier_alea(nb, nomfichier) prenant un argument entier et un autre chaine de caracteres
+
+
+def cree_fichier_alea(nb, nomfichier):
+    import random # la librairie qu'on utiliseras
+    with open(nomfichier, 'w') as f:
+        for x,y in range(nb):
+            x = random.uniform(0, 500)
+            y = random.uniform(0, 500)
+            f.write('{} {}\n'.format(x, y))
+
+
+# Question (b) coder une fonction qui represente le nom d'un fichier sur le disque.
+
+
+def lit_fichier(nomfic): 
+    listeX = [] 
+    listeY = [] 
+    with open(nomfic, 'r') as f: 
+        for line in f: 
+            x, y = line.split() 
+            listeX.append(float(x)) 
+            listeY.append(float(y)) 
+
+    return listeX, listeY
+   
+
+# Question (c) fonction qui appele la fonction lit_fichier()pour obtenir les coordonées des points de nuages.
+
+
+def trace_Nuage(nomf):
+    points = lit_fichier(nomf)
+    x = [p[0] for p in points]
+    y = [p[1] for p in points]
+    plt.plot(x, y, 'o')
+    plt.show()
+    return len(points)
+
+
+# Question (d) fonction qui determine les coordonées de 2 points de cette droite afin qu'une ligne reliant ces 2 points soit représentée graphiquement.
+
+
+def trace_droite(a, b):
+    x1 = 0
+    y1 = b
+    x2 = 10
+    y2 = a * 10 + b
+
+    plt.plot([x1, x2], [y1, y2], color='red') 
+    plt.show()
+
+# ne reste plus qu'a adapter les fonctions au paragraphe et les tester toutes pour voir si ca marche.
