@@ -1,4 +1,4 @@
-# Projet-Stats
+# Projet - Statistiques Regionales.
 
 J'vous mets les commandes necessaires pour git ;)
 
