@@ -1,4 +1,4 @@
-# Projet - Documentation Git.
+Documentation Git.
 
 J'vous mets les commandes necessaires pour git ;)
 
