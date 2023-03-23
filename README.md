@@ -10,20 +10,31 @@
 
 # Les étudiants du groupe :
 
- - Amine Belkhichane 
- - Quentin Palmyre ?
- - Eva Bouala ?
+ - Quentin Palmyre 
  
+ - Eva Bouala 
+ 
+ - Amine Belkhichane 
+
 # Utilisation du programme :
 
-- Après avoir téléchargé ou copié le programme v2.1.1 et ouvert dans Visual Studio Code :
-- Décommenter tout en bas dans le "command center" (la partie à utiliser souhaitée), dans notre cas on décommentera "open_win()" pour avoir accès à la fenetre mère du programme). Après avoir lancé le programme dans un débugueur une fenêtre où il y a marqué deux labels ; "Tracer des lignes" et "Cliquez ci-dessous pour lancer chacune des parties souhaitées. "  , choisir l'un des trois boutons pour lancer l'un des trois sous-programmes respectivement :
+1 - Copier le programme v2.1.1 .
+
+2 - Ouverir le programme v2.1.1 dans Visual Studio Code :
+
+3 - Décommenter tout en bas dans le "command center" (la partie à utiliser souhaitée)
+
+4 - Décommenter "open_win()" pour avoir accès à la fenetre mère (qui contients les trois sous fenetres) du programme.
+
+5 - Lancer le programme dans un débugueur, Une fenêtre contenant deux labels ; "Tracer des lignes" et "Cliquez ci-dessous pour lancer chacune des parties souhaitées. " .
+
+6 - choisir l'un des trois boutons pour lancer l'un des trois sous-programmes respectivement :
 
   - Partie3_ABC.
   - Partie3_D.
   - Partie3_EFG.
 
-- Pour les lancer appuyez sur leurs boutons respectifs. 
+7 - Pour les lancer appuyez sur leurs boutons respectifs. 
 
 
 # # La partie ABC :  
