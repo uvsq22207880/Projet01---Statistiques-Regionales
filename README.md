@@ -11,7 +11,9 @@ https://github.com/uvsq22207880/Projet01---Statistiques-Régionales
  
 # README : /utilisation du programme/
 -après avoir téléchargé ou copié le programme v2.1.1 :
-- décommenter tout en bas dans le "command center" la partie à utiliser souhaitée, dans notre cas on décommentera "open_win()" (pour avoir accès à tout le programme), après avoir lancé le programme dans un débugueur (pour l'instant) une fenêtre où il y a marqué deux labels "tracer des lignes" apparait , choisir l'un des trois boutons pour lancer l'un des trois sous-programmes respectivement partie3_ABC, Partie3_D, Partie3_EFG .
+- décommenter tout en bas dans le "command center" la partie à utiliser souhaitée, dans notre cas on décommentera "open_win()" (pour avoir accès à tout le programme), après avoir lancé le programme dans un débugueur (pour l'instant) une fenêtre où il y a marqué deux labels "tracer des lignes" apparait , choisir l'un des trois boutons pour lancer l'un des trois sous-programmes respectivement :- Partie3_ABC
+                                                                                          - Partie3_D
+                                                                                          - Partie3_EFG .
 
 La partie ABC :  
 
