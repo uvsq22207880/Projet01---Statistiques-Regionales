@@ -1,19 +1,27 @@
+# README :
+
 # l'url de dépôt du projet sur GitHub :
-https://github.com/uvsq22207880/Projet01---Statistiques-Régionales
+
+- https://github.com/uvsq22207880/Projet01---Statistiques-Régionales
 
 # Groupe de TD : 
--S2BITD-02
+- S2BITD-02
 
-# les étudiants du groupe : 
+# Les étudiants du groupe : 
  - Amine Belkhichane 
  - Quentin Palmyre ?
  - Eva Bouala ?
  
-# README : /utilisation du programme/
--après avoir téléchargé ou copié le programme v2.1.1 :
-- décommenter tout en bas dans le "command center" la partie à utiliser souhaitée, dans notre cas on décommentera "open_win()" (pour avoir accès à tout le programme), après avoir lancé le programme dans un débugueur (pour l'instant) une fenêtre où il y a marqué deux labels "tracer des lignes" apparait , choisir l'un des trois boutons pour lancer l'un des trois sous-programmes respectivement :- Partie3_ABC
-                                                                                          - Partie3_D
-                                                                                          - Partie3_EFG .
+#                         /Utilisation du programme/
+- Après avoir téléchargé ou copié le programme v2.1.1 et ouvert dans Visual Studio Code :
+- Décommenter tout en bas dans le "command center" (la partie à utiliser souhaitée), dans notre cas on décommentera "open_win()" pour avoir accès à la fenetre mère du programme). Après avoir lancé le programme dans un débugueur une fenêtre où il y a marqué deux labels ; "Tracer des lignes" et "Cliquez ci-dessous pour lancer chacune des parties souhaitées. "  , choisir l'un des trois boutons pour lancer l'un des trois sous-programmes respectivement :
+
+  - Partie3_ABC.
+  - Partie3_D.
+  - Partie3_EFG.
+
+- Pour les lancer appuyez sur leurs boutons respectifs. 
+
 
 La partie ABC :  
 
@@ -28,7 +36,7 @@ Contient 12 widgets :
 - Le bouton effacer : pour effacer tout le contenue du Canvas.
 - Le bouton quitter : pour fermer la fenêtre partie3_ABC.
 
-- Mais aussi un menu qui repends toutes les fonctions de la fenêtre
+- Mais aussi un menu qui repends toutes les fonctions de la fenêtre.
 
 La Partie3_D : 
 
@@ -40,7 +48,7 @@ Contient 7 widgets :
 - Le bouton effacer : permet d'effacer tout ce qu'il y a sur le Canvas.
 - Le bouton quitter : permet de fermer la fenêtre partie3_D.
 
-- En haut a droite : un menu appelé dessin qui comporte les mêmes commandes que les boutons sauf pour : "5.Desactiver mode dessin" qui en plus grise le bouton mode dessin en plus de le désactiver  .    
+- En haut à droite : un menu appelé dessin qui comporte les mêmes commandes que les boutons sauf pour : "5.Desactiver mode dessin" qui en plus grise le bouton mode dessin en plus de le désactiver  .    
               
 Partie3_EFG : 
 
@@ -54,18 +62,12 @@ Contient 8 widgets :
 - Apres avoir finis appuyez sur le bouton rouge "Quitter" pour fermer la fenêtre partie3_EFG.
 
 
-# Commandes nécessaires pour git ;)
+# Commandes nécessaires pour git-bash ;)
 
--Créer un nouveau référentiel : git init 
-
--Ajouter des fichiers à l’index : git add <fichier> 
-
--Commiter les changements à l'index : git commit -m "Message de commit"
- 
--Pousser le référentiel sur un serveur distant : git push <serveur> <branche> 
-
--Récupérer les modifications du serveur distant : git pull <serveur> <branche> 
-
--Fusionner des branches locales ou distantes : git merge <branche1> <branche2> 
-
--Cloner un dépôt distant dans un nouveau référentiel local : git clone <url_du_dépôt_distant>
+- Créer un nouveau référentiel : git init 
+- Ajouter des fichiers à l’index : git add <fichier> 
+- Commiter les changements à l'index : git commit -m "Message de commit"
+- Pousser le référentiel sur un serveur distant : git push <serveur> <branche> 
+- Récupérer les modifications du serveur distant : git pull <serveur> <branche> 
+- Fusionner des branches locales ou distantes : git merge <branche1> <branche2> 
+- Cloner un dépôt distant dans un nouveau référentiel local : git clone <url_du_dépôt_distant>
