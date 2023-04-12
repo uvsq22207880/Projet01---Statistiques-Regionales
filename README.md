@@ -18,9 +18,9 @@
 
 # Utilisation du programme :
 
-1 - Copier le programme v2.1.1 .
+1 - Copier le programme v3.0.0 .
 
-2 - Ouverir le programme v2.1.1 dans Visual Studio Code :
+2 - Ouvrir le programme v3.0.0 dans Visual Studio Code :
 
 3 - Décommenter tout en bas dans le "command center" (la partie à utiliser souhaitée)
 
@@ -41,14 +41,13 @@
 
 Contient 12 widgets : 
 - Le bouton Tracer la droite : trace une droite aléatoire (de différentes couleurs).
- - Le bouton Afficher couleur : afficher la couleur utilisée.
-- Le bouton Créer fichier : crée fichier de deux clones de nombres aléatoires (float).
- - Le bouton Tracer points crée : permet de tracer les points du fichier crée (sur une fenêtre matplotlib).
-- Le bouton Régression : permet de tracer la droite de régression de ce même fichier crée .
- - Le bouton Charger fichier : permet de charger n'importe quel fichier.txt (un fichier texte) sur l'ordinateur.                   
-- Le bouton Tracer nuage exemple : permet de tracer les points de ce fichier et sa droite de régression si cela est pertinent).
- - Le bouton effacer : pour effacer tout le contenue du Canvas.
-- Le bouton quitter : pour fermer la fenêtre partie3_ABC.
+ - Le bouton Créer fichier : crée fichier de deux clones de nombres aléatoires (float).
+- Le bouton Tracer points crée : permet de tracer les points du fichier crée (sur une fenêtre matplotlib).
+ - Le bouton Régression : permet de tracer la droite de régression de ce même fichier crée .
+- Le bouton Charger fichier : permet de charger n'importe quel fichier.txt (un fichier texte) sur l'ordinateur.                   
+ - Le bouton Tracer nuage exemple : permet de tracer les points de ce fichier et sa droite de régression si cela est pertinent).
+- Le bouton effacer : pour effacer tout le contenue du Canvas.
+ - Le bouton quitter : pour fermer la fenêtre partie3_ABC.
 
 - Mais aussi un menu qui repends toutes les fonctions de la fenêtre.
 
