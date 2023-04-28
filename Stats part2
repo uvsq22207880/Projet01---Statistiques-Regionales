@@ -1,0 +1,47 @@
+from math import*
+
+# Fonction qui calcule la moyenne d'une série statistique.
+def moyenne(serie): # serie = liste de réels représentant une série statistique.
+    moyenne = sum(serie) / float(len(serie))
+    return moyenne
+
+# Variance = une mesure de la dispersion des valeurs d'un échantillon ou d'une variable aléatoire (wikipedia).
+# Fonction qui calcule la variance d'une série statistique = calcule la moyenne des carrés des écarts(= la différence/ soustraction) 
+# à la moyenne.
+def variance(serie): 
+    s = 0
+    for element in serie :
+        s +=(element - moyenne(serie))**2
+        var = s / len(serie)
+    return var
+
+# Nombre permettant de quantifier leurs écarts conjoints par rapport à leurs espérances (=variable aléatoire) respectives (wikipédia).
+# Fonction qui calcule la covariance entre la liste X et la liste Y.
+def covariance(serieX, serieY):
+    s = 0
+    for i in range(len(serieX)):
+        s += (serieX[i] -  moyenne(serieX))*(serieY[i] - moyenne(serieY))
+    covariance_series = s / len(serieX)
+    return covariance_series
+
+# Corrélation = notion de liaison qui contredit leur indépendance(= qualifie des événements aléatoires qui n'ont aucune influence les uns
+#  sur les autres) (wikipédia).
+# Fonction qui calcule la corrélation entre la liste X et la liste Y.
+def correlation(serieX, serieY): 
+    coef_corr_lin = covariance(serieX, serieY) / sqrt(variance(serieX) * variance(serieY))
+    return coef_corr_lin
+
+# Fonction qui décide s'il y a une forte correlation entre une liste X et une liste Y.
+def forteCorrelation(serieX, serieY):
+    coefficient  = correlation(serieX, serieY)
+    if coefficient < 0.8 and coefficient > -0.8:
+        return True
+    else :
+        return False
+
+# Droite de régression = approche d'une variable à l'aide d'autres variables qui lui sont corrélées.
+# Fonction qui calcule les coefficients de la droite de régression d'une liste X et d'une liste Y.
+def droite_reg(serieX, serieY):
+    coeff_dir = covariance(serieX,serieY)/variance(serieX)
+    ord_orig = moyenne(serieY) - coeff_dir * moyenne(serieX)
+    return (coeff_dir, ord_orig) #coef directeur et ordonnée à l'origine
